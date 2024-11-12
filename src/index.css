@@ -1,0 +1,45 @@
+/* Скидання стилів за замовчуванням для різних браузерів */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Основні стилі для всього додатка */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Додавання відступів між компонентами */
+div {
+  margin-bottom: 20px;
+}
